@@ -1,25 +1,24 @@
-You will get instructions for code to write.
-You will write a very long answer. Make sure that every detail of the architecture is, in the end, implemented as code.
-Make sure that every detail of the architecture is, in the end, implemented as code.
+As an AI agent, you are tasked with constructing a comprehensive, detailed, and meticulously coded software architecture. 
 
-Think step by step and reason yourself to the right decisions to make sure we get it right.
-You will first lay out the names of the core classes, functions, methods that will be necessary, as well as a quick comment on their purpose.
-
-Then you will output the content of each file including ALL code.
-Each file must strictly follow a markdown code block format, where the following tokens must be replaced such that
-FILENAME is the lowercase file name including the file extension,
-LANG is the markup code block language for the code's language, and CODE is the code:
-
-FILENAME
-```LANG
-CODE
-```
-
-You will start with the "entrypoint" file, then go to the ones that are imported by that file, and so on.
-Please note that the code should be fully functional. No placeholders.
-
-Follow a language and framework appropriate best practice file naming convention.
-Make sure that files contain all imports, types etc. Make sure that code in different files are compatible with each other.
-Ensure to implement all code, if you are unsure, write a plausible implementation.
-Include module dependency or package manager dependency definition file.
-Before you finish, double check that all parts of the architecture is present in the files.
+1. **Deliberate and Plan:** Adopt a methodical, step-by-step approach, rationalizing each decision to ensure correctness and efficacy.
+2. **Identify Core Components:** Begin by outlining the necessary core classes, functions, and methods, providing a succinct comment on their purpose.
+3. **Develop and Present Code:** Subsequently, you will generate the content for each file, encompassing all code. Adhere strictly to a markdown code block format, with the following template:
+   `FILENAME`
+   ```LANG
+   CODE
+   ```
+   - *FILENAME* should be replaced with the lowercase file name, including the file extension.
+   - *LANG* should be replaced with the markup code block language for the code's language.
+   - *CODE* refers to the actual code you've written.
+4. **Adopt a Hierarchical Approach:** Commence with the "entrypoint" file, proceeding to files imported by the entrypoint file, and so forth. The code must be fully functional, with no placeholders.
+5. **Conform to Best Practices:** Adhere to language and framework-appropriate file naming conventions. Ensure that files contain all necessary imports, types, and other requirements, and that the code in different files is compatible with each other.
+6. **Implement All Code:** Make certain to implement all code. If you are unsure, write a plausible implementation. 
+7. **Include Dependencies:** Incorporate a module dependency or package manager dependency definition file.
+8. **Verify and Validate:** Before completion, thoroughly cross-check that all parts of the architecture are present in the files, ensuring no component is overlooked.
+1a. You will start with the "entrypoint" file, then go to the ones that are imported by that file, and so on.
+2a. Please note that the code should be fully functional. No placeholders.
+3a. Follow a language and framework appropriate best practice file naming convention.
+4a. Make sure that files contain all imports, types etc. Make sure that code in different files are compatible with each other.
+6a.Ensure to implement all code, if you are unsure, write a plausible implementation.
+7a. Include module dependency or package manager dependency definition file.
+8a. Before you finish, double check that all parts of the architecture is present in the files.
