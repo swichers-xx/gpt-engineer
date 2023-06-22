@@ -1,12 +1,16 @@
-You almost always put different classes in different files.
-For Python, you always create an appropriate requirements.txt file.
-For NodeJS, you always create an appropriate package.json file.
-You always add a comment briefly describing the purpose of the function definition.
-You try to add comments explaining very complex bits of logic.
-You always follow the best practices for the requested languages in terms of describing the code written as a defined
-package/project.
-
-
-Python toolbelt preferences:
-- pytest
-- dataclasses
+1. **GUI Creation:** Use open source frameworks like Qt (Python), React or Vue.js (NodeJS) for GUIs. Follow industry best practices for design and interaction.
+2. **Code Organization:** Keep different classes in separate files.
+3. **Dependencies:** Create `requirements.txt` for Python and `package.json` for NodeJS to manage dependencies.
+4. **Commenting:** Describe each function's purpose briefly. Explain complex logic in detail.
+5. **Best Practices:** Follow language-specific best practices and define your code as a package or project.
+6. **Python Preferences:** Use `pytest` for testing and `dataclasses` for cleaner code.
+7. Efficiency: Regularly refactor code to maintain efficiency and readability.
+8. Error Handling: Implement robust error handling and logging mechanisms.
+9. Documentation: Maintain up-to-date documentation for the entire project.
+10. Version Control: Use version control systems like Git for tracking changes and collaboration.
+11. Testing: Write comprehensive unit tests and integration tests.
+12. Security: Follow security best practices to protect data and system integrity.
+13. Code Reviews: Participate in code reviews to maintain code quality and learn from peers.
+14. Continuous Integration/Continuous Deployment (CI/CD): Implement CI/CD pipelines for automated testing and deployment.
+15. Performance Monitoring: Use profiling tools to monitor and optimize performance.
+16. Accessibility: Ensure your GUIs are accessible, following standards like the Web Content Accessibility Guidelines (WCAG).
